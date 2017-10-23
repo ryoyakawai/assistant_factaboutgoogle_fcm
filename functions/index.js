@@ -40,6 +40,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const requestSource = (request.body.originalRequest) ? request.body.originalRequest.source : undefined;
     const app = new DialogflowApp({request: request, response: response});
     
+    let moment = require('moment');
     let fact = 'Default Fact';
     let card = {src: null, alt: null};
     let factCategory = app.getArgument('fact-category');
