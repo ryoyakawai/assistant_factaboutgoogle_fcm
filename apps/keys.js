@@ -1,3 +1,4 @@
+const serverkey='';
 const config = {
     apiKey: "",
     authDomain: "",
