@@ -60,4 +60,4 @@ typings/
 # firebase
 .firebaserc
 firebase-debug.log
-#apps/keys.js
+apps/keys.js
